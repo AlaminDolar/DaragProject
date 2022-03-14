@@ -1,12 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import TheLayout from './views/pages/TheLayout';
-
+import TheLayout from "./views/pages/TheLayout";
+import React from "react";
 function App() {
   return (
     <div className="App">
-      
       <TheLayout></TheLayout>
     </div>
   );

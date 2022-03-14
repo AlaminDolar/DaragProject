@@ -1,12 +1,22 @@
-import React from 'react';
+import React from "react";
+import Footer from "./common/Footer";
+import Header from "./common/Header";
+import Main from "./common/Main";
 
 const TheLayout = () => {
-    return (
-        <div>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima repudiandae nobis quod natus tenetur facilis sapiente corrupti ipsa eligendi officia quam rerum asperiores earum expedita in accusantium, alias commodi dignissimos.</h2>
-        </div>
-    );
+  return (
+    <div>
+      <div>
+        <Header />
+      </div>
+      <div>
+        <Main />
+      </div>
+      <div>
+        <Footer />
+      </div>
+    </div>
+  );
 };
 
 export default TheLayout;
-

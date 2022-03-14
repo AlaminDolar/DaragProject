@@ -1,0 +1,23 @@
+import React from "react";
+
+import logo from ".//../../../asstes/image/Logo.png";
+const Header = () => {
+  return (
+    <div className="container mx-auto ">
+      <div className=" flex items-center justify-between">
+        <div>
+          <div>
+            <img src={logo} alt="" />
+          </div>
+        </div>
+
+        <div className="flex">
+          <input type="text" className="p-3 border-2 w-full" />
+          <button className="border-2 p-2">Search</button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Header;
